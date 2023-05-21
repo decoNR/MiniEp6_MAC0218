@@ -1,9 +1,12 @@
 Comandos utilizado:
 
+para fazer o build da imagem utilizando o Dockerfile
 sudo docker build . -t imagem_miniep6
 
+para rodar o docker para o exercicio 1
 sudo docker run -p 8888:80 imagem_miniep6
 
+para rodar o docker para o exercicio 2 utilizando volumes
 sudo docker run -v ./pages:/usr/src/pages/ -p 8888:80 imagem_miniep6
 
 
