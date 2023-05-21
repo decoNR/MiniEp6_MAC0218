@@ -1,5 +1,11 @@
 Comandos utilizado:
 
+sudo docker build . -t imagem_miniep6
+
+sudo docker run -p 8888:80 imagem_miniep6
+
+sudo docker run -v ./pages:/usr/src/pages/ -p 8888:80 imagem_miniep6
+
 
 
 
